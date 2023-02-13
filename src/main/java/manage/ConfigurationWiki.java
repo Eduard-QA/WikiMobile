@@ -20,10 +20,9 @@ public class ConfigurationWiki {
         capabilities.setCapability("platformVersion","8.1");
         capabilities.setCapability("appPackage", "org.wikipedia");
         capabilities.setCapability("appActivities", ".main.MainActivity");
-
         capabilities.setCapability("automationName", "Appium");
         capabilities.setCapability("app","C:/Users/eduar/Downloads/wiki.apk");
-        driver = new AppiumDriver<MobileElement>(new URL("http://127.0.0.1:4723/wd/hub"),capabilities);
+        driver=new AppiumDriver<MobileElement>(new URL("http://127.0.0.1:4723/wd/hub"),capabilities);
 
     }
 
